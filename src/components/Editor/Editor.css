@@ -1,0 +1,66 @@
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: none; 
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(57, 57, 57); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(50, 50, 51, 0.809); 
+  }
+
+.f-nabar{
+  display: flex;
+  flex-direction: column;
+}
+
+.ace-line span{
+  line-height: 10rem;
+}
+.suggestions{
+  background: var(--sidebarDark);
+  color: white;
+}
+.search-container{
+  margin: 0 2rem;
+}
+.context-options {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  display: flex;
+}
+.context-options span{
+  color: rgb(255, 255, 255);
+  height: 2.5rem;
+  width: 6rem;
+  /* padding: 2px; */
+  background-color: var(--sidebarDark);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: 7px groove rgba(128, 128, 128, 0.407);
+  cursor: pointer;
+  
+}
+.context-options input{
+  border: none;
+  outline: none;
+  padding:0 5px;
+  color: rgb(255, 255, 255);
+  height: 2.5rem;
+  width: 10rem;
+  background-color: var(--sidebarDark);
+  /* border-right: 5px groove grey; */
+  
+}

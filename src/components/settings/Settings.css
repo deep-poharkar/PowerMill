@@ -1,0 +1,103 @@
+.m-sidebar {
+    display: flex;
+    flex-direction: row;
+    min-height: 70vh;
+    /* min-width: 80vw; */
+}
+
+.modal-content {
+    background: var(--modalColor)
+
+}
+
+.m-options {
+    flex: 0.2;
+    padding-left: 5px;
+    border-right: 1px solid black;
+    color: var(--white);
+}
+
+.m-prefernce {
+    padding: 2px 12px;
+    flex: 0.8;
+   
+}
+
+.m-options p {
+    font-size: 20px;
+    padding: 5px;
+}
+.m-options p:hover{
+    cursor: pointer;
+    background-color: var(--hoverColor);
+    border-radius: 10px;
+    
+}
+
+.m-header {
+    font-family: Roboto;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.m-header img {
+    margin-right: 8px;
+}
+
+/* Font and Styles */
+.fs-container .fs-inp{
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 1.7rem;
+    border-radius:3px;
+    background-color: var(--fontChangeBack);
+    color: var(--white);
+}
+.fs-section{
+    margin-bottom: 50px;
+}
+
+.sub-name{
+    font-size: 1.6em;
+    font-family: Roboto;
+    color: var(--white);
+}
+.sub-desc{
+    font-size: 18px;
+    font-family: Roboto;
+    color: var(--white);
+    filter: invert(0.2);
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+
+/* Appearnce */
+.ap-container .ap-inp{
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 1.7rem;
+    border-radius:3px;
+    background-color: var(--fontChangeBack);
+    color: var(--white);
+}
+.ap-section{
+    margin-bottom: 50px;
+}
+
+
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
